@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/gpio.h
+string
+-
+fstream
+-
+iostream
+-
+
+/home/linaro/code/gpio/src/gpio_wrapper.cc
+gpio_wrapper.h
+/home/linaro/code/gpio/src/gpio_wrapper.h
+unistd.h
+/home/linaro/code/gpio/src/unistd.h
+iostream
+-
+string
+-
+vector
+-
+
+/home/linaro/code/gpio/src/gpio_wrapper.h
+gpio.h
+-
+string
+-
+vector
+-
+

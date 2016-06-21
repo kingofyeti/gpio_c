@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.9)
+project(GPIO_Test)
+include_directories(src)
+file(GLOB SOURCES "src/*.cc")
+add_executable(GPIO_Test ${SOURCES})
