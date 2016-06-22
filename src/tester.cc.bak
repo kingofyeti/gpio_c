@@ -1,0 +1,13 @@
+#include "gpio.h"
+
+#include <cstdio>
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main(){
+  vector<GPIO> gpio_list;
+  GPIO gpio(10); 
+  gpio_list.push_back(gpio);
+}

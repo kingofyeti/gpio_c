@@ -8,17 +8,18 @@
 
 class GPIO_Wrapper {
   public:
+    static GPIO gpio_1;
+    static GPIO gpio_2;
+    static GPIO gpio_3;
+    static GPIO gpio_4;
+    const static int id_list[];
+    const static int cycle[];
+
     GPIO_Wrapper();
     ~GPIO_Wrapper();
 
-    void run();
-
-  private:
-    const static int id_list[];
-    const static int cycle[];
-    std::vector<GPIO> gpio_list;
-
     void init_GPIO_list();
+    void run();
 };
 
 #endif
