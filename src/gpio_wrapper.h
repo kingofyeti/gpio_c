@@ -14,12 +14,22 @@ class GPIO_Wrapper {
     static GPIO gpio_4;
     const static int id_list[];
     const static int cycle[];
+    const static int one_round_time;
+
+    const static int high_speed;
+    const static int mid_speed;
+    const static int low_speed;
 
     GPIO_Wrapper();
     ~GPIO_Wrapper();
 
     void init_GPIO_list();
-    void run();
+
+    // first argument: round
+    // second argument: speed  1: low 2: mid 3:high
+    void run(float round,int speed);
+    void reset();
+
 };
 
 #endif

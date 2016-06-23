@@ -1,23 +1,23 @@
 # The set of languages for which implicit dependencies are needed:
-set(CMAKE_DEPENDS_LANGUAGES
+SET(CMAKE_DEPENDS_LANGUAGES
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yeti/github/gpio_c/src/gpio.cc" "/home/yeti/github/gpio_c/build/CMakeFiles/GPIO_Test.dir/src/gpio.cc.o"
-  "/home/yeti/github/gpio_c/src/gpio_wrapper.cc" "/home/yeti/github/gpio_c/build/CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o"
-  "/home/yeti/github/gpio_c/src/test_main.cc" "/home/yeti/github/gpio_c/build/CMakeFiles/GPIO_Test.dir/src/test_main.cc.o"
+SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/linaro/code/gpio/src/gpio.cc" "/home/linaro/code/gpio/build/CMakeFiles/GPIO_Test.dir/src/gpio.cc.o"
+  "/home/linaro/code/gpio/src/gpio_wrapper.cc" "/home/linaro/code/gpio/build/CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o"
+  "/home/linaro/code/gpio/src/test_main.cc" "/home/linaro/code/gpio/build/CMakeFiles/GPIO_Test.dir/src/test_main.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+SET(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+SET(CMAKE_C_TARGET_INCLUDE_PATH
   "../src"
   )
-set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

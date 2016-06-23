@@ -1,1 +1,1 @@
-/home/yeti/github/gpio_c/build/CMakeFiles/GPIO_Test.dir
+/home/linaro/code/gpio/build/CMakeFiles/GPIO_Test.dir

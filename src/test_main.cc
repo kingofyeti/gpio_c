@@ -6,5 +6,8 @@ using namespace std;
 
 int main(){
   GPIO_Wrapper gpio_wrapper; 
-  //gpio_wrapper.run();
+
+  // first argument: round
+  // second argument: speed  1: low 2: mid 3:high
+  gpio_wrapper.run(0.5,1);
 }

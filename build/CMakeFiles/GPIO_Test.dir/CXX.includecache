@@ -14,43 +14,7 @@ fstream
 iostream
 -
 
-/home/yeti/github/gpio_c/src/gpio.cc
-gpio.h
-/home/yeti/github/gpio_c/src/gpio.h
-exception
--
-fstream
--
-iostream
--
-sstream
--
-stdexcept
--
-string
--
-
-/home/yeti/github/gpio_c/src/gpio.h
-string
--
-fstream
--
-iostream
--
-
-/home/yeti/github/gpio_c/src/gpio_wrapper.cc
-gpio_wrapper.h
-/home/yeti/github/gpio_c/src/gpio_wrapper.h
-unistd.h
-/home/yeti/github/gpio_c/src/unistd.h
-iostream
--
-string
--
-vector
--
-
-/home/yeti/github/gpio_c/src/gpio_wrapper.h
+/home/linaro/code/gpio/src/gpio_wrapper.h
 gpio.h
 -
 string
@@ -58,9 +22,9 @@ string
 vector
 -
 
-/home/yeti/github/gpio_c/src/test_main.cc
+/home/linaro/code/gpio/src/test_main.cc
 gpio_wrapper.h
-/home/yeti/github/gpio_c/src/gpio_wrapper.h
+/home/linaro/code/gpio/src/gpio_wrapper.h
 cstdio
 -
 
