@@ -14,7 +14,21 @@ fstream
 iostream
 -
 
-/home/linaro/code/gpio/src/gpio_wrapper.h
+/home/virtualbloks/github/gpio_c/src/gpio_wrapper.cc
+gpio_wrapper.h
+/home/virtualbloks/github/gpio_c/src/gpio_wrapper.h
+unistd.h
+/home/virtualbloks/github/gpio_c/src/unistd.h
+iostream
+-
+string
+-
+vector
+-
+stdexcept
+-
+
+/home/virtualbloks/github/gpio_c/src/gpio_wrapper.h
 gpio.h
 -
 string
@@ -22,9 +36,9 @@ string
 vector
 -
 
-/home/linaro/code/gpio/src/test_main.cc
+/home/virtualbloks/github/gpio_c/src/test_main.cc
 gpio_wrapper.h
-/home/linaro/code/gpio/src/gpio_wrapper.h
+/home/virtualbloks/github/gpio_c/src/gpio_wrapper.h
 cstdio
 -
 

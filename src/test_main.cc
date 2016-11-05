@@ -9,5 +9,5 @@ int main(){
 
   // first argument: round
   // second argument: speed  1: low 2: mid 3:high
-  gpio_wrapper.run(0.5,1);
+  gpio_wrapper.run(1,2);
 }
