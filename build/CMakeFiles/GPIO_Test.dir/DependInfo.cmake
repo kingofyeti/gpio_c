@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/linaro/code/gpio/src/gpio.cc" "/home/linaro/code/gpio/build/CMakeFiles/GPIO_Test.dir/src/gpio.cc.o"
-  "/home/linaro/code/gpio/src/gpio_wrapper.cc" "/home/linaro/code/gpio/build/CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o"
-  "/home/linaro/code/gpio/src/test_main.cc" "/home/linaro/code/gpio/build/CMakeFiles/GPIO_Test.dir/src/test_main.cc.o"
+  "/home/virtualbloks/github/gpio_c/src/gpio.cc" "/home/virtualbloks/github/gpio_c/build/CMakeFiles/GPIO_Test.dir/src/gpio.cc.o"
+  "/home/virtualbloks/github/gpio_c/src/gpio_wrapper.cc" "/home/virtualbloks/github/gpio_c/build/CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o"
+  "/home/virtualbloks/github/gpio_c/src/test_main.cc" "/home/virtualbloks/github/gpio_c/build/CMakeFiles/GPIO_Test.dir/src/test_main.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -34,14 +34,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/linaro/code/gpio
+CMAKE_SOURCE_DIR = /home/virtualbloks/github/gpio_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/linaro/code/gpio/build
+CMAKE_BINARY_DIR = /home/virtualbloks/github/gpio_c/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GPIO_Test.dir/depend.make
@@ -54,17 +51,17 @@ include CMakeFiles/GPIO_Test.dir/flags.make
 
 CMakeFiles/GPIO_Test.dir/src/gpio.cc.o: CMakeFiles/GPIO_Test.dir/flags.make
 CMakeFiles/GPIO_Test.dir/src/gpio.cc.o: ../src/gpio.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/linaro/code/gpio/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/virtualbloks/github/gpio_c/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/GPIO_Test.dir/src/gpio.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GPIO_Test.dir/src/gpio.cc.o -c /home/linaro/code/gpio/src/gpio.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GPIO_Test.dir/src/gpio.cc.o -c /home/virtualbloks/github/gpio_c/src/gpio.cc
 
 CMakeFiles/GPIO_Test.dir/src/gpio.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPIO_Test.dir/src/gpio.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/linaro/code/gpio/src/gpio.cc > CMakeFiles/GPIO_Test.dir/src/gpio.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/virtualbloks/github/gpio_c/src/gpio.cc > CMakeFiles/GPIO_Test.dir/src/gpio.cc.i
 
 CMakeFiles/GPIO_Test.dir/src/gpio.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPIO_Test.dir/src/gpio.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/linaro/code/gpio/src/gpio.cc -o CMakeFiles/GPIO_Test.dir/src/gpio.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/virtualbloks/github/gpio_c/src/gpio.cc -o CMakeFiles/GPIO_Test.dir/src/gpio.cc.s
 
 CMakeFiles/GPIO_Test.dir/src/gpio.cc.o.requires:
 .PHONY : CMakeFiles/GPIO_Test.dir/src/gpio.cc.o.requires
@@ -75,42 +72,19 @@ CMakeFiles/GPIO_Test.dir/src/gpio.cc.o.provides: CMakeFiles/GPIO_Test.dir/src/gp
 
 CMakeFiles/GPIO_Test.dir/src/gpio.cc.o.provides.build: CMakeFiles/GPIO_Test.dir/src/gpio.cc.o
 
-CMakeFiles/GPIO_Test.dir/src/test_main.cc.o: CMakeFiles/GPIO_Test.dir/flags.make
-CMakeFiles/GPIO_Test.dir/src/test_main.cc.o: ../src/test_main.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/linaro/code/gpio/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/GPIO_Test.dir/src/test_main.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GPIO_Test.dir/src/test_main.cc.o -c /home/linaro/code/gpio/src/test_main.cc
-
-CMakeFiles/GPIO_Test.dir/src/test_main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPIO_Test.dir/src/test_main.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/linaro/code/gpio/src/test_main.cc > CMakeFiles/GPIO_Test.dir/src/test_main.cc.i
-
-CMakeFiles/GPIO_Test.dir/src/test_main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPIO_Test.dir/src/test_main.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/linaro/code/gpio/src/test_main.cc -o CMakeFiles/GPIO_Test.dir/src/test_main.cc.s
-
-CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.requires:
-.PHONY : CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.requires
-
-CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.provides: CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.requires
-	$(MAKE) -f CMakeFiles/GPIO_Test.dir/build.make CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.provides.build
-.PHONY : CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.provides
-
-CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.provides.build: CMakeFiles/GPIO_Test.dir/src/test_main.cc.o
-
 CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o: CMakeFiles/GPIO_Test.dir/flags.make
 CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o: ../src/gpio_wrapper.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/linaro/code/gpio/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/virtualbloks/github/gpio_c/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o -c /home/linaro/code/gpio/src/gpio_wrapper.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o -c /home/virtualbloks/github/gpio_c/src/gpio_wrapper.cc
 
 CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/linaro/code/gpio/src/gpio_wrapper.cc > CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/virtualbloks/github/gpio_c/src/gpio_wrapper.cc > CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.i
 
 CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/linaro/code/gpio/src/gpio_wrapper.cc -o CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/virtualbloks/github/gpio_c/src/gpio_wrapper.cc -o CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.s
 
 CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o.requires:
 .PHONY : CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o.requires
@@ -121,18 +95,41 @@ CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o.provides: CMakeFiles/GPIO_Test.di
 
 CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o.provides.build: CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o
 
+CMakeFiles/GPIO_Test.dir/src/test_main.cc.o: CMakeFiles/GPIO_Test.dir/flags.make
+CMakeFiles/GPIO_Test.dir/src/test_main.cc.o: ../src/test_main.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/virtualbloks/github/gpio_c/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/GPIO_Test.dir/src/test_main.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/GPIO_Test.dir/src/test_main.cc.o -c /home/virtualbloks/github/gpio_c/src/test_main.cc
+
+CMakeFiles/GPIO_Test.dir/src/test_main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPIO_Test.dir/src/test_main.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/virtualbloks/github/gpio_c/src/test_main.cc > CMakeFiles/GPIO_Test.dir/src/test_main.cc.i
+
+CMakeFiles/GPIO_Test.dir/src/test_main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPIO_Test.dir/src/test_main.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/virtualbloks/github/gpio_c/src/test_main.cc -o CMakeFiles/GPIO_Test.dir/src/test_main.cc.s
+
+CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.requires:
+.PHONY : CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.requires
+
+CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.provides: CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.requires
+	$(MAKE) -f CMakeFiles/GPIO_Test.dir/build.make CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.provides.build
+.PHONY : CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.provides
+
+CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.provides.build: CMakeFiles/GPIO_Test.dir/src/test_main.cc.o
+
 # Object files for target GPIO_Test
 GPIO_Test_OBJECTS = \
 "CMakeFiles/GPIO_Test.dir/src/gpio.cc.o" \
-"CMakeFiles/GPIO_Test.dir/src/test_main.cc.o" \
-"CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o"
+"CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o" \
+"CMakeFiles/GPIO_Test.dir/src/test_main.cc.o"
 
 # External object files for target GPIO_Test
 GPIO_Test_EXTERNAL_OBJECTS =
 
 GPIO_Test: CMakeFiles/GPIO_Test.dir/src/gpio.cc.o
-GPIO_Test: CMakeFiles/GPIO_Test.dir/src/test_main.cc.o
 GPIO_Test: CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o
+GPIO_Test: CMakeFiles/GPIO_Test.dir/src/test_main.cc.o
 GPIO_Test: CMakeFiles/GPIO_Test.dir/build.make
 GPIO_Test: CMakeFiles/GPIO_Test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable GPIO_Test"
@@ -143,8 +140,8 @@ CMakeFiles/GPIO_Test.dir/build: GPIO_Test
 .PHONY : CMakeFiles/GPIO_Test.dir/build
 
 CMakeFiles/GPIO_Test.dir/requires: CMakeFiles/GPIO_Test.dir/src/gpio.cc.o.requires
-CMakeFiles/GPIO_Test.dir/requires: CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.requires
 CMakeFiles/GPIO_Test.dir/requires: CMakeFiles/GPIO_Test.dir/src/gpio_wrapper.cc.o.requires
+CMakeFiles/GPIO_Test.dir/requires: CMakeFiles/GPIO_Test.dir/src/test_main.cc.o.requires
 .PHONY : CMakeFiles/GPIO_Test.dir/requires
 
 CMakeFiles/GPIO_Test.dir/clean:
@@ -152,6 +149,6 @@ CMakeFiles/GPIO_Test.dir/clean:
 .PHONY : CMakeFiles/GPIO_Test.dir/clean
 
 CMakeFiles/GPIO_Test.dir/depend:
-	cd /home/linaro/code/gpio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linaro/code/gpio /home/linaro/code/gpio /home/linaro/code/gpio/build /home/linaro/code/gpio/build /home/linaro/code/gpio/build/CMakeFiles/GPIO_Test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/virtualbloks/github/gpio_c/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/virtualbloks/github/gpio_c /home/virtualbloks/github/gpio_c /home/virtualbloks/github/gpio_c/build /home/virtualbloks/github/gpio_c/build /home/virtualbloks/github/gpio_c/build/CMakeFiles/GPIO_Test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GPIO_Test.dir/depend
 
