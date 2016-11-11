@@ -17,7 +17,7 @@ const int GPIO_Wrapper::id_list[] = {5,6,13,19};
 const int GPIO_Wrapper::cycle[] = {1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0};
 const int GPIO_Wrapper::one_round_time = 2500;
 const int GPIO_Wrapper::high_speed = 1000;
-const int GPIO_Wrapper::mid_speed = 2000;
+const int GPIO_Wrapper::mid_speed = 1500;
 const int GPIO_Wrapper::low_speed = 5000;
 
 GPIO GPIO_Wrapper::gpio_1(id_list[0]);
