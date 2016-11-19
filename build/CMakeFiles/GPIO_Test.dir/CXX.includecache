@@ -14,11 +14,11 @@ fstream
 iostream
 -
 
-/home/virtualbloks/github/gpio_c/src/gpio_wrapper.cc
+/home/pi/github/gpio_c/src/gpio_wrapper.cc
 gpio_wrapper.h
-/home/virtualbloks/github/gpio_c/src/gpio_wrapper.h
+/home/pi/github/gpio_c/src/gpio_wrapper.h
 unistd.h
-/home/virtualbloks/github/gpio_c/src/unistd.h
+/home/pi/github/gpio_c/src/unistd.h
 iostream
 -
 string
@@ -28,11 +28,17 @@ vector
 stdexcept
 -
 
-/home/virtualbloks/github/gpio_c/src/gpio_wrapper.h
+/home/pi/github/gpio_c/src/gpio_wrapper.h
 gpio.h
 -
 string
 -
 vector
+-
+
+/home/pi/github/gpio_c/src/test_main.cc
+gpio_wrapper.h
+/home/pi/github/gpio_c/src/gpio_wrapper.h
+cstdio
 -
 

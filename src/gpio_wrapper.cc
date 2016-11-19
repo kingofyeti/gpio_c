@@ -13,12 +13,12 @@ using std::string;
 using std::logic_error;
 using std::runtime_error;
 
-const int GPIO_Wrapper::id_list[] = {5,6,13,19};
+const int GPIO_Wrapper::id_list[] = {2,3,4,14};
 const int GPIO_Wrapper::cycle[] = {1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0};
 const int GPIO_Wrapper::one_round_time = 2500;
-const int GPIO_Wrapper::high_speed = 1000;
-const int GPIO_Wrapper::mid_speed = 1500;
-const int GPIO_Wrapper::low_speed = 5000;
+const int GPIO_Wrapper::high_speed = 6000;
+const int GPIO_Wrapper::mid_speed = 8000;
+const int GPIO_Wrapper::low_speed = 10000;
 
 GPIO GPIO_Wrapper::gpio_1(id_list[0]);
 GPIO GPIO_Wrapper::gpio_2(id_list[1]);

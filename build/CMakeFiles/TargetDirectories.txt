@@ -1,1 +1,1 @@
-/home/virtualbloks/github/gpio_c/build/CMakeFiles/GPIO_Test.dir
+/home/pi/github/gpio_c/build/CMakeFiles/GPIO_Test.dir
